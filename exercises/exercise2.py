@@ -27,7 +27,10 @@ lado_cuadrado = 5
 area_cuadrado = pow(lado_cuadrado, 2)
 
 # COMPLETAR - INICIO
-
+if lado_cuadrado == 0 :
+    area_mayor_a_cinco = not True
+elif area_cuadrado > 5 :
+    area_mayor_a_cinco = not False
 # COMPLETAR - FIN
 
 assert area_mayor_a_cinco
