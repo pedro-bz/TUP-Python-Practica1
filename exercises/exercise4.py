@@ -11,7 +11,7 @@ numero_03 = "789"
 numero_04 = "132"
 
 # COMPLETAR - INICIO
-
+suma_de_numeros = int(numero_01)+int(numero_02)+int(numero_03)+int(numero_04)
 # COMPLETAR - FIN
 
 assert suma_de_numeros == 1500
@@ -26,7 +26,7 @@ numero_02 = 456
 numero_03 = 789
 
 # COMPLETAR - INICIO
-
+suma_de_numeros_string = str(numero_01) + str(numero_02) + str(numero_03)
 # COMPLETAR - FIN
 
 assert suma_de_numeros_string == "123456789"
@@ -49,7 +49,7 @@ assert multiplicacion_de_numeros == 44397345600000000
 
 
 """
-Convertir todo los numeros a enteros y luego restarlos secuencialmente (El uno
+Convertir todos los numeros a enteros y luego restarlos secuencialmente (El uno
 menos el dos menos el tres menos el cuatro).
 """
 
