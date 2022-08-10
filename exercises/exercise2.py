@@ -10,7 +10,8 @@ esta_lloviendo = True
 riego_activado = True
 
 # COMPLETAR - INICIO
-
+if esta_lloviendo or riego_activado: 
+    piso_mojado = True
 # COMPLETAR - FIN
 
 assert piso_mojado
