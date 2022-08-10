@@ -35,7 +35,7 @@ Re-Escribir usando la función pow.
 lado_cuadrado = 5
 
 # COMPLETAR - INICIO
-area_cuadrado = pow(2, lado_cuadrado)
+area_cuadrado = pow(lado_cuadrado, 2)
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
