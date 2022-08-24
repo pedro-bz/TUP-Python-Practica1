@@ -26,10 +26,7 @@ lado_cuadrado = 5
 area_cuadrado = pow(lado_cuadrado, 2)
 
 # COMPLETAR - INICIO
-if lado_cuadrado == 0:
-    area_mayor_a_cinco = not True
-elif area_cuadrado > 5:
-    area_mayor_a_cinco = not False
+area_mayor_a_cinco = not lado_cuadrado == 0 and area_cuadrado > 5
 # COMPLETAR - FIN
 
 assert area_mayor_a_cinco
@@ -43,8 +40,7 @@ True si el número 1 es divisible por 7 y al mismo tiempo el número 2 no lo es.
 numero_1 = 49
 numero_2 = 50
 # COMPLETAR - INICIO
-if numero_1 % 7 == 0 and numero_2 % 7 !=0:
-    resultado = True
+resultado = numero_1 % 7 == 0 and numero_2 % 7 != 0
 # COMPLETAR - FIN
 
 assert resultado
