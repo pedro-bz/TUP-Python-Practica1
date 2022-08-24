@@ -10,8 +10,7 @@ esta_lloviendo = True
 riego_activado = True
 
 # COMPLETAR - INICIO
-if esta_lloviendo or riego_activado: 
-    piso_mojado = True
+piso_mojado = esta_lloviendo or riego_activado
 # COMPLETAR - FIN
 
 assert piso_mojado
@@ -64,8 +63,7 @@ variable_04 = "90"
 variable_05 = 100
 
 # COMPLETAR - INICIO
-if variable_01 is not True or variable_02 or variable_04 or variable_05:
-    resultado = variable_03
+resultado = variable_03 or variable_02 or not variable_01 or variable_04 or variable_05
 # COMPLETAR - FIN
 
 assert resultado == 80
